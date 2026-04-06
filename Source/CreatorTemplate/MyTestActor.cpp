@@ -23,6 +23,6 @@ void AMyTestActor::BeginPlay()
 void AMyTestActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	GEngine->AddOnScreenDebugMessage(-1, 0.1f, FColor::Emerald, TEXT("hi"));
+	// GEngine->AddOnScreenDebugMessage(-1, 0.1f, FColor::Emerald, TEXT("hi"));
 }
 
